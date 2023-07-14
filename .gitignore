@@ -1,0 +1,89 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Ignore node_modules directory
+/node_modules
+
+# Ignore vendor directory
+/vendor
+
+# Ignore log files
+/logs/*.log
+
+# Ignore environment-specific files
+/.env
+/.env.*
+
+# Ignore build artifacts
+/build
+/dist
+/out
+
+# Ignore IDE or editor-specific files (Visual Studio Code example)
+/.vscode
+
+# Ignore compiled Python bytecode
+*.pyc
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore compiled C/C++ object files
+*.o
+
+# Ignore package-lock.json for npm
+package-lock.json
+
+# Ignore yarn lockfile
+yarn.lock
+
+# Ignore database files
+*.db
+
+# Ignore image thumbnails
+*.thumb
+
+# Ignore system or hidden files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+.tmp
+
+# Ignore backup files
+*.bak
+*.swp
+*~
+
+# Ignore compiled binaries or executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore generated documentation
+/doc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
